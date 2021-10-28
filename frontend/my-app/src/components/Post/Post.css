@@ -1,0 +1,117 @@
+/* .postapp{
+    background-color:rgb(145, 137, 137);
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(146, 196, 146);
+    position: sticky;
+    top: 0%;
+}
+.leftText{
+    color: rgb(14, 212, 14);
+    margin-left: 20px;
+    color: black;
+}
+.createpost{
+    margin-right: 20px;
+    display: flex;
+    align-self: center;
+}
+.sin{
+    /* background-image: linear-gradient(to right,rgb(74, 228, 74), rgb(147, 196, 212) ); */
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.my{ 
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.details{ 
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius:2%;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+.name{
+    display:flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.place{
+    margin-top: 0px;
+    color: gray;
+}
+.ename{
+    margin-bottom: 0px;
+}
+.loading{
+    margin-right: 10px;
+}
+.image1{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+.img1{
+    height: 400px;
+    width: auto;
+    margin-top: 10px;
+}
+.logos{
+    display: flex;
+}
+.like{
+    margin-left: 10px;
+}
+.red{
+    margin-left: 10px;
+    color: red;
+}
+.send{
+    margin-left: 20px;
+}
+.date{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.liked{
+    margin-top: -30px;
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+}
+.sentence1{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.sentence{
+    font-size: 20px;
+    margin-left: 10px;
+}

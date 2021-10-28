@@ -1,0 +1,86 @@
+.logincontainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(74, 228, 74), rgb(147, 196, 212) );
+}
+.login{
+    border: 1px solid rgb(187, 231, 187);
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 8px 8px 5px #649692;
+    width: 30%;
+    margin: auto;
+    margin-top: 8%;
+    height: 500px;
+}
+.loginlogo{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(180, 179, 179); */
+}
+.logininsta{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 0%;
+}
+.form{
+    display:grid;
+    width: 80%;
+    margin-left: 50px;
+}
+input{
+    width: 90%;
+    margin-left: 15px;
+    border: 0.5px solid rgb(87, 87, 110);
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 35px;
+}
+input[type=email], input[type=password]{
+    font-size: 18px;
+    font-weight: bold;
+}
+label{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.loginbtn{
+    background-image: linear-gradient(to right,rgb(74, 228, 74), rgb(147, 196, 212) );
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px 10px 0px;
+    cursor: pointer;
+    width: 95%;
+}
+.loginbtn:hover {
+    background-color: greenyellow;
+}
+.btn{
+    display: flex;
+    justify-content:center;
+}
+.sup{
+    margin-left: 2px;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sbtn{
+    font-size: 20px;
+}
+.status{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.msg{
+    color: red;
+    font-size: 30px;
+}

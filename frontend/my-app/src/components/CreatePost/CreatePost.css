@@ -1,0 +1,88 @@
+.createpostcontainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(74, 228, 74), rgb(147, 196, 212) );
+}
+.postcreate{
+    border: 1px solid rgb(187, 231, 187);
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 8px 8px 5px #649692;
+    width: 35%;
+    margin: auto;
+    margin-top: 8%;
+    height: 550px;
+}
+.createpostlogo{
+    display: flex;
+    justify-content: center;
+}
+.posttext{
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    margin-top:20px;
+    margin-bottom: 0%;
+}
+.createpostform{
+    display:grid;
+    width: 80%;
+    margin-left: 50px;
+}
+input{
+    width: 90%;
+    margin-left: 15px;
+    border: 0.5px solid rgb(87, 87, 110);
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 35px;
+}
+input[type=text], input[type=text]{
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type=file]::file-selector-button{
+    transition: 10px;
+    height: 35px;
+    font-weight: bold;
+}
+input[type=file]{
+    font-size: 18px;
+    font-weight: bold;
+}
+label{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.createpostbtn{
+    background-image: linear-gradient(to right,rgb(74, 228, 74), rgb(147, 196, 212) );
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px 10px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+.cancel{
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.backbtn{
+    font-size: 20px;
+    text-decoration: none; 
+}
+.poststatus{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0%;
+}
+.postmsg{
+    color: rgb(5, 190, 5);
+    font-size: 30px;
+}
